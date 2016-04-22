@@ -1,0 +1,20 @@
+{
+  "name": "homebridge-daylight",
+  "version": "0.1.0",
+  "description": "Daylight plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": "yungsters/homebridge-daylight",
+  "bugs": {
+    "url": "http://github.com/yungsters/homebridge-daylight/issues"
+  },
+  "engines": {
+    "node": ">=4.2.0",
+    "homebridge": ">=0.2.0"
+  },
+  "dependencies": {
+    "suncalc": "^1.7.0"
+  }
+}
