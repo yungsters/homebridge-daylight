@@ -28,7 +28,7 @@ This is intended for use in triggering scenes using sunrise and sunset.
     "lat": 37.3316936,
     "lng": -122.0302191
   },
-  "name": "Daylight"
+  "name": "Daylight Sensor"
 }
 ```
 
@@ -36,4 +36,4 @@ Fields:
 
 * `accessory` must be "Daylight" (required).
 * `location` contains your location coordinates (required).
-* `name` is the name of the published accessory (optional).
+* `name` is the name of the published accessory (required).

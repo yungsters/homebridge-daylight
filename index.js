@@ -11,8 +11,6 @@ module.exports = homebridge => {
 
   class DaylightAccessory {
     constructor(log, config) {
-      this.displayName = config.name || 'Daylight Sensor';
-
       if (!config.location ||
           !Number.isFinite(config.location.lat) ||
           !Number.isFinite(config.location.lng)) {
@@ -20,7 +18,7 @@ module.exports = homebridge => {
       }
 
       this.location = config.location;
-      this.service = new Service.LightSensor(this.displayName);
+      this.service = new Service.LightSensor(config.name);
       this.updateAmbientLightLevel();
     }
 
